@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name promicro)(type KiCad)(uri ${KIPRJMOD}/ProMicroKiCad/promicro.pretty)(options "")(descr ""))
+  (lib (name Mounting_Keyboard_Stabilizer)(type KiCad)(uri ${KIPRJMOD}/keyswitch-kicad-library/sources/packages3d/Mounting_Keyboard_Stabilizer)(options "")(descr ""))
+  (lib (name Switch_Keyboard_Cherry_MX)(type KiCad)(uri ${KIPRJMOD}/keyswitch-kicad-library/sources/packages3d/Switch_Keyboard_Cherry_MX)(options "")(descr ""))
+  (lib (name Switch_Keyboard_Kailh)(type KiCad)(uri ${KIPRJMOD}/keyswitch-kicad-library/sources/packages3d/Switch_Keyboard_Kailh)(options "")(descr ""))
+)
