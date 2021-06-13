@@ -752,15 +752,15 @@ Row4
 Text GLabel 3550 6950 2    50   Input ~ 0
 Col6
 Text GLabel 3550 6850 2    50   Input ~ 0
-Col6
+Col5
 Text GLabel 3550 6750 2    50   Input ~ 0
-Col6
+Col4
 Text GLabel 3550 6650 2    50   Input ~ 0
-Col6
+Col3
 Text GLabel 3550 6550 2    50   Input ~ 0
-Col6
+Col2
 Text GLabel 3550 6450 2    50   Input ~ 0
-Col6
+Col1
 $Comp
 L power:GND #PWR02
 U 1 1 60C96256
@@ -969,9 +969,12 @@ Wire Wire Line
 Wire Wire Line
 	8450 4450 8200 4450
 Wire Wire Line
-	8450 5450 8200 5450
+	8450 5450 8250 5450
 Wire Wire Line
 	8450 5350 8450 5300
 Wire Wire Line
 	8450 5300 8000 5300
+Connection ~ 8250 5450
+Wire Wire Line
+	8250 5450 8200 5450
 $EndSCHEMATC
