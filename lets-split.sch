@@ -778,20 +778,15 @@ U 1 1 60DCD8DC
 P 9050 4850
 F 0 "J1" H 8620 4789 50  0000 R CNN
 F 1 "USB_C_Receptacle_USB2.0" H 8620 4698 50  0000 R CNN
-F 2 "Connector_USB:USB_C_Receptacle_GCT_USB4085" H 9200 4850 50  0001 C CNN
+F 2 "custom-footprints:USB_C_GCT_USB4085" H 9200 4850 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 9200 4850 50  0001 C CNN
 	1    9050 4850
 	-1   0    0    -1  
 $EndComp
 Text GLabel 2150 5950 0    50   Input ~ 0
 Serial1
-Text GLabel 8050 5350 0    50   Input ~ 0
+Text GLabel 7500 4950 0    50   Input ~ 0
 Serial1
-Wire Wire Line
-	8350 5350 8450 5350
-Wire Wire Line
-	8450 5450 8450 5350
-Connection ~ 8450 5350
 $Comp
 L power:VCC #PWR03
 U 1 1 60DE1307
@@ -822,16 +817,14 @@ Wire Wire Line
 $Comp
 L Device:R_Small R3
 U 1 1 60DE63E5
-P 8250 5350
-F 0 "R3" H 8309 5396 50  0000 L CNN
-F 1 "220" H 8309 5305 50  0000 L CNN
-F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 8250 5350 50  0001 C CNN
-F 3 "~" H 8250 5350 50  0001 C CNN
-	1    8250 5350
+P 7700 4950
+F 0 "R3" H 7759 4996 50  0000 L CNN
+F 1 "220" H 7759 4905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" H 7700 4950 50  0001 C CNN
+F 3 "~" H 7700 4950 50  0001 C CNN
+	1    7700 4950
 	0    1    1    0   
 $EndComp
-NoConn ~ 8450 4550
-NoConn ~ 8450 4450
 NoConn ~ 8450 4750
 NoConn ~ 8450 4850
 NoConn ~ 8450 4950
@@ -895,7 +888,7 @@ Half Selector
 Text Notes 8000 3800 0    118  ~ 0
 Comms
 Wire Wire Line
-	8050 5350 8150 5350
+	7500 4950 7600 4950
 Wire Wire Line
 	9050 5850 9050 5750
 Wire Wire Line
@@ -935,4 +928,50 @@ Wire Wire Line
 Connection ~ 2150 6150
 Text Notes 5200 5550 0    118  ~ 0
 Reset Button
+NoConn ~ 2150 5850
+NoConn ~ 2150 6250
+NoConn ~ 2150 6350
+NoConn ~ 2150 6450
+NoConn ~ 2150 6550
+NoConn ~ 3550 6250
+NoConn ~ 3550 5850
+$Comp
+L Jumper:SolderJumper_3_Open JP1
+U 1 1 60EF25DC
+P 8000 4450
+F 0 "JP1" H 8000 4655 50  0000 C CNN
+F 1 "Jack Reversed Jumper" H 8000 4564 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8000 4450 50  0001 C CNN
+F 3 "~" H 8000 4450 50  0001 C CNN
+	1    8000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Jumper:SolderJumper_3_Open JP2
+U 1 1 60EF4046
+P 8000 5450
+F 0 "JP2" H 8000 5563 50  0000 C CNN
+F 1 "Jack Obversed Jumper" H 8000 5654 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_RoundedPad1.0x1.5mm" H 8000 5450 50  0001 C CNN
+F 3 "~" H 8000 5450 50  0001 C CNN
+	1    8000 5450
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7800 5450 7800 4950
+Wire Wire Line
+	7800 4950 7800 4450
+Connection ~ 7800 4950
+Wire Wire Line
+	8000 4600 8450 4600
+Wire Wire Line
+	8450 4600 8450 4550
+Wire Wire Line
+	8450 4450 8200 4450
+Wire Wire Line
+	8450 5450 8200 5450
+Wire Wire Line
+	8450 5350 8450 5300
+Wire Wire Line
+	8450 5300 8000 5300
 $EndSCHEMATC
