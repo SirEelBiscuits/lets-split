@@ -26,3 +26,34 @@ Above includes circuitry for electrostatic discharge, and similar
 
 [here](https://docs.qmk.fm/#/feature_split_keyboard)
 
+
+Sandwich diagram
+----------------
+
+```
+=========  Plate
+ ?         iunno
+---------  PCB
+ |         standoffs
+ |
+=========  Base
+```
+
+### BOM
+
+Keyswitches
+Case
+PCB
+Diodes
+ProMicro
+Solder
+
+USB-C to USB-C Cable
+M3 screws + standoffs
+Resistors: 9.1k, 220
+USB-C Jack
+
+screw distances:
+
+X 3 1/8"      79mm
+Y 4 5/8"     117mm
