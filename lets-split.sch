@@ -749,17 +749,17 @@ Text GLabel 2150 6850 0    50   Input ~ 0
 Row3
 Text GLabel 2150 6950 0    50   Input ~ 0
 Row4
-Text GLabel 3550 6950 2    50   Input ~ 0
-Col6
-Text GLabel 3550 6850 2    50   Input ~ 0
-Col5
-Text GLabel 3550 6750 2    50   Input ~ 0
-Col4
-Text GLabel 3550 6650 2    50   Input ~ 0
-Col3
-Text GLabel 3550 6550 2    50   Input ~ 0
-Col2
 Text GLabel 3550 6450 2    50   Input ~ 0
+Col6
+Text GLabel 3550 6550 2    50   Input ~ 0
+Col5
+Text GLabel 3550 6650 2    50   Input ~ 0
+Col4
+Text GLabel 3550 6750 2    50   Input ~ 0
+Col3
+Text GLabel 3550 6850 2    50   Input ~ 0
+Col2
+Text GLabel 3550 6950 2    50   Input ~ 0
 Col1
 $Comp
 L power:GND #PWR02
