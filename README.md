@@ -2,7 +2,7 @@
 
 a custom remake of the lets split keyboard pcb
 
-PCB designed to match [this case](git remote add origin https://github.com/SirEelBiscuits/lets-split.git).
+PCB designed to match [this case](https://mechboards.co.uk/shop/kits/lets-split-kit/#pcb).
 
 Uses the QMK firmware, my fork of which is here: https://github.com/SirEelBiscuits/qmk_firmware/tree/garnet
 
